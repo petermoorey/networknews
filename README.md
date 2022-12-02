@@ -13,3 +13,13 @@ A weekly email with curated high-quality news, articles and blog posts from the 
 - Queue/service bus for communication between functions
 - Data store to retain collected item URLs, abstract, rating, and tagged topics
 - Data store to define sources of news, articles, and blog posts
+- Data store to retain subscriber data
+
+### Working Notes
+
+Data storage requirements
+ - Simple to add/update items without a UI
+ - Easily accessible from Python function
+ - Integrate with web front-end (Svelte?)
+ - No/low cost
+ - Firebase?
